@@ -30,6 +30,10 @@ class MainActivity : AppCompatActivity() {
                     replaceFragment(RatingFragment())
                     true
                 }
+                R.id.navigation_scanner -> {
+                    replaceFragment(ScannerFragment())
+                    true
+                }
                 else -> false
             }
         }
